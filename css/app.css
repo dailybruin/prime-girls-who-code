@@ -69,7 +69,31 @@ a {
 	color: #000;
 	font-weight: 400;
 }
-
+#chart {
+	margin-right: 10px;
+	width: 40%;
+	float: left;
+}
+.bottom2{
+margin-right: 10px;
+	width: 70%;
+	float: left;
+	}
+	
+.bottom3{
+margin-left: 10px;
+	width: 80%;
+	float: rigth;
+	}
+.verticalLine {
+    border-left: 1em solid yellow;
+}
+.verticalLine2 {
+    border-right: 1em solid #ED217C;
+    }
+.verticalLine3 {
+    border-left: 1em solid #009BDF;
+    }
 a:hover {
 	border-bottom: 0px solid #ED217C;
 	background: yellow;
@@ -97,5 +121,6 @@ a:hover {
 		font-size: 0.8em;
 	}
 }    
+
 
 
