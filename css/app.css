@@ -66,12 +66,14 @@ h4 b {
 }
 
 a {
-	color: #009BDF;
-	font-weight: 500;
+	color: #000;
+	font-weight: 400;
 }
 
 a:hover {
-	border-bottom: 2px solid #ED217C;
+	border-bottom: 0px solid #ED217C;
+	background: yellow;
+	color: #000;
 }
 
 @media only screen and (max-width: 900px) {
