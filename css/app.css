@@ -1,0 +1,99 @@
+body {
+	font-family: Roboto;
+	font-weight: 300;
+}
+
+.row {
+	margin-top: 5em;
+}
+
+h1 {
+	font-family: 'Share Tech Mono', Courier;
+	font-size: 4em;
+	margin-bottom: 0.4em;
+	font-weight: 700;
+	color: #fff;
+	background: #000;
+	text-transform: uppercase;
+	line-height: 1.3em;
+	display: inline;
+	border-bottom: 3px solid yellow;
+}
+
+h2 {
+	font-family: 'Roboto Mono';
+	font-size: 1.5em;
+}
+
+h4 {
+	font-family: Roboto;
+	font-weight: 300;
+	text-transform: lowercase;
+	font-size: 1.2em;
+	margin-bottom: 0;
+	color: #fff;
+	margin-top: 1em;
+}
+
+h4 b {
+	font-weight: 500;
+	font-family: 'Share Tech Mono', Courier;
+	text-transform: uppercase;
+}
+
+.img-inline {
+	width: 70%;
+	float: left;
+	display: inline-block;
+	margin: 0 1em 1em 0;
+}
+
+.landing {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url('http://dailybruin.com/images/2016/05/prime.coding.photo1_1.jpg') no-repeat scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	text-align: right;
+}
+
+.landing-content {
+	padding: 2em;
+	margin-top: 25vh;
+}
+
+a {
+	color: #009BDF;
+	font-weight: 500;
+}
+
+a:hover {
+	border-bottom: 2px solid #ED217C;
+}
+
+@media only screen and (max-width: 900px) {
+    h1 {
+		font-size: 3em;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	h1 {
+		font-size: 2em;
+	}
+    .landing-content {
+		margin-top: 50vh;
+		padding: 1em;
+	}
+	h3 {
+		font-size: 0.8em;
+	}
+	h4 {
+		font-size: 0.8em;
+	}
+}    
+
+
