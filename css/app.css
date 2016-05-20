@@ -71,22 +71,29 @@ a {
 }
 #chart {
 	margin-right: 10px;
-	width: 40%;
+	width: 50%;
 	float: left;
+	padding-bottom: 10px
 }
+.bottom{
+padding-bottom: 20px;
+}
+
 .bottom2{
 margin-right: 10px;
 	width: 70%;
 	float: left;
-	}
-	
+	 padding-bottom: 10px;
+}
+
 .bottom3{
 margin-left: 10px;
 	width: 80%;
-	float: rigth;
+	float: right;
+	padding-bottom: 10px
 	}
 .verticalLine {
-    border-left: 1em solid yellow;
+    border-left: 1em solid #FDF35E;
 }
 .verticalLine2 {
     border-right: 1em solid #ED217C;
@@ -104,6 +111,10 @@ a:hover {
     h1 {
 		font-size: 3em;
 	}
+	#chart, .bottom, .bottom2, .bottom3
+	{
+	width: 100%;
+	}
 }
 
 @media only screen and (max-width: 414px) {
@@ -120,7 +131,12 @@ a:hover {
 	h4 {
 		font-size: 0.8em;
 	}
+	#chart, .bottom, .bottom2, .bottom3
+	{
+	width: 100%;
+	}
 }    
+
 
 
 
