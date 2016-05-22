@@ -60,6 +60,17 @@ footer h4 {
 	margin: 0 1em 1em 0;
 }
 
+.prime-logo {
+	text-align: left;
+	display: block;
+}
+.prime-logo:hover {
+	background: transparent;
+}
+.prime-logo img {
+	width: 100px;
+}
+
 .landing {
 	position: relative;
 	width: 100%;
@@ -72,9 +83,13 @@ footer h4 {
 	text-align: right;
 }
 
+.landing .row {
+	margin: 0;
+}
+
 .landing-content {
 	padding: 2em;
-	margin-top: 25vh;
+	margin-top: 20vh;
 }
 
 a {
